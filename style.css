@@ -2933,3 +2933,16 @@ button:focus-visible {
   transform: none !important;
 }
 }
+
+.case-single-video {
+  display: grid;
+  justify-items: center;
+}
+
+.case-single-video .case-media-card {
+  width: min(100%, 920px);
+}
+
+.case-single-video .case-media-card__video {
+  aspect-ratio: 16 / 9;
+}
